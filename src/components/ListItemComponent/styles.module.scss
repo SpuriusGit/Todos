@@ -1,0 +1,21 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 5px 10px;
+  margin: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+  &__text {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+
+    &__removed {
+      text-decoration: line-through;
+    }
+  }
+}

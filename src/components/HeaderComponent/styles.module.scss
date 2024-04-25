@@ -1,0 +1,26 @@
+.header {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    &__item {
+      margin-left: 10px;
+      &__link {
+        text-decoration: none;
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
